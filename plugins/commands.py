@@ -87,7 +87,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**You are not in our channel given below so you don't get the movie file...\n\nIf you want the movie file, click on the '🍿ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ🍿' button below and join our back-up channel, then click on the '🔄 Try Again' button below...\n\nThen you will get the movie files...**",
+            text="**Due To High Traffic. Only Our Channel Members Can Use This Bot.\n\nIf You Want The Movie, Click On The '🍿JOIN OUR CHANNEL🍿' Button Below And Join Our Back-up Channel, Then Click On The '🔄 Try Again' button below...\n\nThen you will get the movie files...\n\n\nअधिक ट्रैफिक के कारण. केवल हमारे चैनल के MEMBERS ही इस बॉट का उपयोग कर सकते हैं।\n\nयदि आप मूवी चाहते हैं, तो नीचे '🍿JOIN OUR CHANNEL' बटन पर क्लिक करें और हमारे बैक-अप चैनल से जुड़ें, फिर नीचे '🔄 TRY AGAIN' बटन पर क्लिक करें। ..\n\nफिर आपको मूवी फ़ाइलें मिलेंगी...**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
@@ -243,7 +243,7 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             await message.reply_text(
-                text=f"<b>Hey {message.from_user.mention}, You are successfully verified !\nNow you have unlimited access for all movies till today midnight.</b>",
+                text=f"<b>Hey {message.from_user.mention}, You are successfully verified !\nNow you have unlimited access for all movies till today midnight. THANKS!\n\n\nआप सफलतापूर्वक वेरफाइ हो चुके है | आप इस बोट का यूज आज रात तक कर सकते है | धन्यबाद !</b>",
                 protect_content=True
             )
             await verify_user(client, userid, token)
