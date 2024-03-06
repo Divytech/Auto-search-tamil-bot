@@ -192,13 +192,17 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-
+    CAPTION = """<b>📂FILENAME : {file_name}
+📂FILESIZE : {file_size}
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
 ▫️<a href=https://t.me/devbots2> Mᴀɪɴ Cʜᴀɴɴᴇʟ </a>
 ▫️<a href=https://t.me/devmovies2> Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ​ </a>
 ▫️<a href=https://t.me/champaklalbot> Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ​ </a>
-╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
+╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>
+SLOW DOWNLOAD SPEED SOLUTION
+READ THIS :- https//t.me/devbots2/110
+
+""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
