@@ -21,7 +21,17 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/25eb165308e2804742b8f.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/eadd487dde7e263fcbd04.jpg
+https://te.legra.ph/file/18c707bdb700597bf671f.jpg
+https://te.legra.ph/file/1a42a53079bfaf7d0b73c.jpg
+https://te.legra.ph/file/8567672f4725d7d50e63e.jpg
+https://te.legra.ph/file/41fc8b8bf51d8d7f4d77a.jpg
+https://te.legra.ph/file/a311ee9956cf42c8dacda.jpg
+https://te.legra.ph/file/6684a3ca02c320a318a86.jpg
+https://te.legra.ph/file/43ea37839584b74ef5660.jpg
+https://te.legra.ph/file/9a35b9c9209e656bdc6d1.jpg
+https://te.legra.ph/file/9d5c75e022a0e37688d92.jpg
+https://te.legra.ph/file/83b5c5fdeb17210907372.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/25742d712ae83597442e5.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/25da23cd1a187b0549c8b.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/cc650c65895691d78cbb8.png")
